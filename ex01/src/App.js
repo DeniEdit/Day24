@@ -11,7 +11,7 @@ class App extends React.Component {
     render() {
         return (
             <div className="App">
-               <button type="button" onClick={this.setMyStorage}> My storage </button>
+               <button onClick={this.setMyStorage}> My storage </button>
             </div>
         );
     }
