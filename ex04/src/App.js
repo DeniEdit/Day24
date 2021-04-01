@@ -1,6 +1,6 @@
- import React, { Component } from "react";
+ import React, { Component } from 'react';
  
- class App extends Component {
+ class App extends React.Component {
    setLocalStorage = () => {
      localStorage.setItem("Arena", "Selection Month");
    };
