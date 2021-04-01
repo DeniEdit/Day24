@@ -1,5 +1,5 @@
-import React, { Component } from "react";
-class App extends Component {
+import React, { Component } from 'react';
+class App extends React.Component {
 	setMyStorage = () => {
 		document.cookie = "Year=2021";
 		localStorage.setItem("Paragon", "yes, but Arena first");
